@@ -1,0 +1,105 @@
+body{
+    background-color: whitesmoke;
+    margin:0px;
+}
+
+.container{
+    margin-right: 5%;
+    margin-left: 5%;
+    background-color: white;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    background-color: white;
+}
+nav{
+    font-size: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+ul li{
+    margin: 5px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 3;
+}
+.columna{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+}
+.description{
+    width: 300px;
+    text-align: center;
+    margin-right: 8px;    
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+article {
+    border-bottom: .5px solid grey;
+}
+.content {
+    border-bottom: .5px solid grey;
+}
+section h1{
+    font-size: 25px;
+}
+h2{
+    font-size: 18px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: gainsboro;
+    height: 200px;
+    position: sticky;
+    position:-webkit-sticky;
+    top: 10px;
+}
+footer p{
+    margin-top: 0px;
+}
+footer h1{
+    margin-bottom: 0px;
+}
+aside p{
+    font-size: 15px;
+}
